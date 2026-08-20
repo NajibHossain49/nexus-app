@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 /**
  * Demo-only auth gate. Protects child routes behind a password check.
@@ -20,15 +21,17 @@ export default function ProtectedRoute({ children }: { children: React.ReactNode
     e.preventDefault();
     if (password === DEMO_PASSWORD) {
       localStorage.setItem("isLoggedIn", "true");
+      toast.success("Logged in successfully!");
       // Reload to rehydrate auth state across the app
       window.location.reload();
     } else {
-      alert("Incorrect password. Please try again.");
+      toast.error("Incorrect password. Please try again.");
     }
   }
 
   function handleLogout() {
     localStorage.removeItem("isLoggedIn");
+    toast.success("Logged out successfully!");
     window.location.reload();
   }
 
