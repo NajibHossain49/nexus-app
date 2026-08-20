@@ -1,4 +1,4 @@
-# ReactApp
+# nexus-app
 
 A modern React starter with responsive layout, dark mode, protected routes, code splitting, and reusable components.
 
@@ -35,8 +35,8 @@ A modern React starter with responsive layout, dark mode, protected routes, code
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
-cd react-project
+git clone git@github.com:NajibHossain49/nexus-app.git
+cd nexus-app
 
 # Install dependencies
 npm install
