@@ -1,0 +1,11 @@
+@reference "tailwindcss";
+
+/* Contact form input/label styles (used by ProtectedRoute login form) */
+.login-form label {
+  @apply flex flex-col gap-1.5 text-sm font-medium text-slate-900 dark:text-slate-200;
+}
+
+.login-form input,
+.login-form textarea {
+  @apply rounded-lg border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-900 transition-colors placeholder:text-slate-400 focus:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-500/20 dark:border-slate-700 dark:bg-slate-800 dark:text-white;
+}

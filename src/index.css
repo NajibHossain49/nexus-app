@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode toggling via `.dark` on <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Base resets */
+body {
+  @apply m-0 font-sans antialiased;
+}
+
+#root {
+  @apply flex min-h-dvh flex-col;
+}
