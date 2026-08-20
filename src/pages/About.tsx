@@ -8,14 +8,14 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Us | ReactApp</title>
-        <meta name="description" content="Learn about ReactApp - a modern React starter with Tailwind CSS, dark mode, and reusable components." />
+        <title>About Us | nexus-app</title>
+        <meta name="description" content="Learn about nexus-app - a modern React starter with Tailwind CSS, dark mode, and reusable components." />
       </Helmet>
 
       <div className="flex-1 px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-4xl">
           <SectionTitle
-            title="About ReactApp"
+            title="About nexus-app"
             subtitle="We build modern web applications using cutting-edge technologies."
           />
 

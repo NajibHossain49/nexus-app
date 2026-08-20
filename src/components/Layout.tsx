@@ -42,7 +42,7 @@ export default function Layout() {
             className="rounded-lg text-xl font-bold tracking-tight text-violet-600 outline-none transition-colors hover:text-violet-700 focus-visible:ring-2 focus-visible:ring-violet-500/50 dark:text-violet-400 dark:hover:text-violet-300"
             onClick={closeMenu}
           >
-            ReactApp
+            nexus-app
           </NavLink>
 
           {/* Desktop Nav */}
@@ -102,7 +102,7 @@ export default function Layout() {
 
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-slate-50 px-6 py-8 text-center text-sm text-slate-500 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400">
-        &copy; {new Date().getFullYear()} ReactApp. All rights reserved.
+        &copy; {new Date().getFullYear()} nexus-app. All rights reserved.
       </footer>
     </div>
   );

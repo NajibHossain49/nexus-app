@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>ReactApp - Build Beautiful Web Apps</title>
+        <title>nexus-app - Build Beautiful Web Apps</title>
         <meta name="description" content="A modern React starter with responsive layout, dark mode, protected routes, and reusable components." />
       </Helmet>
 

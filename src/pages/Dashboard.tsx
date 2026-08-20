@@ -13,8 +13,8 @@ export default function Dashboard() {
   return (
     <>
       <Helmet>
-        <title>Dashboard | ReactApp</title>
-        <meta name="description" content="View your project metrics and manage tasks in the ReactApp dashboard." />
+        <title>Dashboard | nexus-app</title>
+        <meta name="description" content="View your project metrics and manage tasks in the nexus-app dashboard." />
       </Helmet>
 
       <div className="flex-1 px-6 py-20 sm:py-28">

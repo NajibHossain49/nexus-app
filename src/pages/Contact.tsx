@@ -43,8 +43,8 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Us | ReactApp</title>
-        <meta name="description" content="Get in touch with the ReactApp team. We'd love to hear from you." />
+        <title>Contact Us | nexus-app</title>
+        <meta name="description" content="Get in touch with the nexus-app team. We'd love to hear from you." />
       </Helmet>
 
       <div className="flex-1 px-6 py-20 sm:py-28">

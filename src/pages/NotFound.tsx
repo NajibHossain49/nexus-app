@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <>
       <Helmet>
-        <title>404 - Page Not Found | ReactApp</title>
+        <title>404 - Page Not Found | nexus-app</title>
         <meta name="description" content="The page you are looking for does not exist." />
       </Helmet>
 
